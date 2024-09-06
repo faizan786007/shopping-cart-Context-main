@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--accent-color);
+	color: var(--primary-color);
+	padding: 1rem;
+}
+.button {
+	background-color: white; /* Green background */
+	border: none; /* Remove border */
+	color: black; /* White text */
+	padding: 10px 20px; /* Padding for size */
+	text-align: center; /* Center the text */
+	text-decoration: none; /* Remove underline from text */
+	display: inline-block; /* Inline block to behave like button */
+	font-size: 16px; /* Font size */
+	margin: 10px 2px; /* Margin around the button */
+	cursor: pointer; /* Pointer cursor on hover */
+	border-radius: 5px; /* Rounded corners */
+	font-weight: bolder;
+	transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* .button:hover {
+	background-color: rgb(235, 117, 75);
+	color: white;
+	border: 2px solid black;
+} */
